@@ -16,3 +16,6 @@ class SuperioBrandParserItem(scrapy.Item):
     description = scrapy.Field()
     manufectured_by = scrapy.Field()
     category = scrapy.Field()
+    inner_category = scrapy.Field()
+    image_path = scrapy.Field()
+    additional_images = scrapy.Field()
